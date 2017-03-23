@@ -1,6 +1,6 @@
 {
     "name": "randomhex",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Will generate a random HEX string of a specifc byte size.",
     "repository": "https://github.com/frozeman/randomHex",
     "license": "MIT",
