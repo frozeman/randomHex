@@ -8,6 +8,11 @@ and [crypto.getRandomValues()](https://developer.mozilla.org/en/docs/Web/API/Ran
 
 Both of those random generators should provide cryptographically strong pseudo-random data. 
 
+```
+$ npm install randomhex
+```
+
+
 
 ```js
 var randomHex = require('randomhex');
