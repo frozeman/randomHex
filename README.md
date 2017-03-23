@@ -3,6 +3,11 @@ randomHex
 
 Will create a random bytes HEX string, in node.js and browsers with crypto.
 
+This library uses the [crypto.randomBytes()](https://nodejs.org/api/crypto.html#crypto_crypto_randombytes_size_callback) in node.js,
+and [crypto.getRandomValues()](https://developer.mozilla.org/en/docs/Web/API/RandomSource/getRandomValues) in the browser.
+
+Both of those randome generators should provide cryptographically strong pseudo-random data. 
+
 
 ```js
 var randomHex = require('randomhex');
