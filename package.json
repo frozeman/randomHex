@@ -5,6 +5,9 @@
     "repository": "https://github.com/frozeman/randomHex",
     "license": "MIT",
     "main": "index.js",
+    "browser": {
+        "crypto.js": "crypto-browser.js"
+    },
     "scripts": {
       "test": "mocha test.js"
     },

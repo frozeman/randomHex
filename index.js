@@ -1,8 +1,5 @@
-if(typeof global !== 'undefined' && !global.crypto) {
-    global.crypto = require('crypto');
-}
-
 var randomHex = function(size, callback) {
+    var crypto = require('./crypto.js');
     var isCallback = (typeof callback === 'function');
 
     
