@@ -1,0 +1,14 @@
+{
+    "name": "randomHex",
+    "version": "0.1.0",
+    "description": "Will generate a HEX string of a specifc byte size",
+    "repository": "https://github.com/frozeman/randomHex",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha test.js"
+    },
+    "devDependencies": {
+      "chai": "^3.0.0"
+    }
+}
