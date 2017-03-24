@@ -1,12 +1,12 @@
 {
     "name": "randomhex",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Will generate a random HEX string of a specifc byte size.",
     "repository": "https://github.com/frozeman/randomHex",
     "license": "MIT",
     "main": "src/index.js",
     "browser": {
-        "./crypto.js": "src/browser.js"
+        "crypto": "./src/browser.js"
     },
     "scripts": {
       "test": "mocha test.js"
