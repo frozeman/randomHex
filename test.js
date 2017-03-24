@@ -1,6 +1,6 @@
 var chai = require('chai');
 var assert = chai.assert;
-var randomHex = require('./index.js');
+var randomHex = require('./src/index.js');
 
 
 describe('randomHex', function () {
